@@ -1,7 +1,7 @@
 CREATE TABLE mult_authors
 	(
 		bookId INT(11) NOT NULL,
-		authorId INT(11),
+		authorId INT(11)
 	);
 	
 INSERT INTO mult_authors
