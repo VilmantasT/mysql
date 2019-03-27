@@ -16,5 +16,5 @@ VALUES
 
 
 
-ALTER TABLE books CONVERT TO CHARACTER SET utf16_lithuanian_ci;
+ALTER TABLE `books` CHANGE `title` `title` VARCHAR(255) CHARACTER SET utf16 COLLATE utf16_lithuanian_ci
 
