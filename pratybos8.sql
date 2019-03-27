@@ -19,9 +19,7 @@ CREATE TABLE books
 CREATE TABLE mult_authors
 	(
 		bookId INT(11) NOT NULL,
-		authorId INT(11),
-		title VARCHAR(255) NOT NULL,
-		year YEAR(4)
+		authorId INT(11)
 	);
 	
-ALTER TABLE books CONVERT TO CHARACTER SET utf16_lithuanian_ci;
+ALTER TABLE `books` CHANGE `title` `title` VARCHAR(255) CHARACTER SET utf16 COLLATE utf16_lithuanian_ci NOT NULL;
