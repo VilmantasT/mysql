@@ -16,3 +16,12 @@ CREATE TABLE books
 		PRIMARY KEY (bookId)
 	);
 		
+CREATE TABLE mult_authors
+	(
+		bookId INT(11) NOT NULL,
+		authorId INT(11),
+		title VARCHAR(255) NOT NULL,
+		year YEAR(4)
+	);
+	
+ALTER TABLE books CONVERT TO CHARACTER SET utf16_lithuanian_ci;

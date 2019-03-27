@@ -1,7 +1,20 @@
-CREATE TABLE authors_books
+CREATE TABLE mult_authors
 	(
 		bookId INT(11) NOT NULL,
 		authorId INT(11),
-		title VARCHAR(255) NOT NULL,
-		year YEAR(4)
 	);
+	
+INSERT INTO mult_authors
+	(bookId, authorId)
+VALUES
+	(1, 1),
+	(1, 2),
+	(5, 7),
+	(2, 2),
+	(4, 6);
+	
+
+
+
+ALTER TABLE books CONVERT TO CHARACTER SET utf16_lithuanian_ci;
+
