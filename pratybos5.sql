@@ -1,3 +1,9 @@
-SELECT authors.authorId FROM authors
+SELECT 
+	authors.authorId,
+	authors.name
+FROM authors
 UNION
-SELECT books.bookId FROM books;
+SELECT 
+	books.bookId,
+	books.title
+FROM books;

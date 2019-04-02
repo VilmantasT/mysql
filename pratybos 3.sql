@@ -1,2 +1,2 @@
-DELETE FROM authors WHERE authorId = 8;
-DELETE FROM authors WHERE authorId = 9;
+DELETE FROM `authors` WHERE `authorId` = 8;
+DELETE FROM `authors` WHERE `authorId` = 9;

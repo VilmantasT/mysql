@@ -9,5 +9,5 @@ VALUES (10, 'Kliudžiau', 1900),
 		(10, 'Brisiaus galas', 1900),
 		(11, 'Sename Dvare', 1900);
 		
-UPDATE books SET authorId = 10 WHERE authorId = 11 LIMIT 1;
+UPDATE `books` SET `authorId` = 7 WHERE `bookId` = 4;
 		
