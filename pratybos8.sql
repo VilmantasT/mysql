@@ -17,7 +17,8 @@ CREATE TABLE books
 	);
 		
 CREATE TABLE mult_authors
-	(
+	(	
+		id INT AUTO_INCREMENT PRIMARY KEY,
 		bookId INT(11) NOT NULL,
 		authorId INT(11)
 	);
